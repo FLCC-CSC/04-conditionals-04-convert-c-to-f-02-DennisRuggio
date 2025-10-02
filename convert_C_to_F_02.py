@@ -21,8 +21,8 @@ def main():
 def C_and_F_convert():
     print('===== Temperature Converter =====')
     print()
-    print('1. Convert from Celsius to Fahrenheit')
-    print('2. Convert from Fahrenheit to Celsius')
+    print('  1. Convert from Celsius to Fahrenheit')
+    print('  2. Convert from Fahrenheit to Celsius')
     print()
     choice = int(input('Please choose from the above menu: '))
 
@@ -119,7 +119,7 @@ Enter a temperature to convert: -40
 
 Utilizing the ability to convert and creating different formulas for different choices.
 Also definitely making sure you have everything accurate because the first time I did the code I had 6 = instead of 5 starting the Temperature Converter line.
-
+And definitely paying attention to the amount of spaces before choices 1 and 2. Oops!
 
 
 
