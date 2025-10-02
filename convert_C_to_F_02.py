@@ -31,13 +31,13 @@ def C_and_F_convert():
         Celsius = float(input('Enter a temperature to convert: '))
         converted = Celsius * 9/5 + 32
         print()
-        print(f'{Celsius} degrees Celsius is {converted} degrees Fahrenheit.')
+        print(f'{int(Celsius)} degrees Celsius is {converted} degrees Fahrenheit.')
 
     else:
         Fahrenheit = int(input('Enter a temperature to convert: '))
         converted = (Fahrenheit - 32) * 5/9
         print()
-        print(f'{Fahrenheit} degrees Fahrenheit is {converted} degrees Celsius.')
+        print(f'{int(Fahrenheit)} degrees Fahrenheit is {converted} degrees Celsius.')
 
 main()
 
@@ -120,7 +120,7 @@ Enter a temperature to convert: -40
 Utilizing the ability to convert and creating different formulas for different choices.
 Also definitely making sure you have everything accurate because the first time I did the code I had 6 = instead of 5 starting the Temperature Converter line.
 And definitely paying attention to the amount of spaces before choices 1 and 2. Oops!
-
+And failing to specify that the output should be int
 
 
 
