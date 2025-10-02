@@ -24,11 +24,11 @@ def C_and_F_convert():
     print('  1. Convert from Celsius to Fahrenheit')
     print('  2. Convert from Fahrenheit to Celsius')
     print()
-    choice = int(input('Please choose from the above menu: '))
+    choice = float(input('Please choose from the above menu: '))
 
     if choice == 1:
 
-        Celsius = int(input('Enter a temperature to convert: '))
+        Celsius = float(input('Enter a temperature to convert: '))
         converted = Celsius * 9/5 + 32
         print()
         print(f'{Celsius} degrees Celsius is {converted} degrees Fahrenheit.')
