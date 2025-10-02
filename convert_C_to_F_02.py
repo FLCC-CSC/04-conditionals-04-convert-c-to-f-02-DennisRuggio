@@ -31,13 +31,13 @@ def C_and_F_convert():
         Celsius = float(input('Enter a temperature to convert: '))
         converted = Celsius * 9/5 + 32
         print()
-        print(f'{int(Celsius)} degrees Celsius is {converted} degrees Fahrenheit.')
+        print(f'{Celsius} degrees Celsius is {converted} degrees Fahrenheit.')
 
     else:
-        Fahrenheit = int(input('Enter a temperature to convert: '))
+        Fahrenheit = float(input('Enter a temperature to convert: '))
         converted = (Fahrenheit - 32) * 5/9
         print()
-        print(f'{int(Fahrenheit)} degrees Fahrenheit is {converted} degrees Celsius.')
+        print(f'{Fahrenheit} degrees Fahrenheit is {converted} degrees Celsius.')
 
 main()
 
